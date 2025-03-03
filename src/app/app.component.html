@@ -10,7 +10,5 @@
 <h1>Weather in Galway</h1>
 
 <!-- outputs current weather -->
-@for(test of weather; track test) {
-  {{test.main}}, {{test.description}}
-}
+{{weather[0].main}}, {{weather[0].description}}
 
